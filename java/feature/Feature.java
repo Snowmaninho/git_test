@@ -12,6 +12,10 @@ public class Feature {
     public void setId(int id) {
         this.id = id;
     }
+    
+    public void test_method() {
+        System.out.println("some logic");
+    } 
 
     @java.lang.Override
     public java.lang.String toString() {
